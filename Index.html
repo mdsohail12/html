@@ -40,3 +40,108 @@
         <td>45%</td>
     </tr>
 </body>
+
+
+
+
+
+
+
+<!-- Lec 3 rem em vh-vw -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .px {
+            background-color: lightblue;
+           font-size: 30px;
+        }
+        .rem{
+            font-size: 3rem;
+        }
+        .vh-wh{
+            font-size: 30vh;
+        }
+        .parent{
+            height: 100rem;
+            width: 30rem;
+            background-color: aqua;
+        }
+        .child{
+            background-color: crimson;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="px">Hello</div>
+    <div class="rem">Hello2</div>
+    <div class="vh-wh">vh-wh</div>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- lec 5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .block {
+background-color: green;
+/* agar ap chahte h to display ka default value jo broweser ne diya usse ap inline pe over ride kar skte hai ok */
+display: inline;
+/* height:10rem;
+width: 10rem; */
+       }
+       .inline-1  {
+background-color: aqua;
+display: block;
+/* yha hd and wd ka koi asar nhi [padega ok] */
+height: 5rem;
+width: 10rem;
+       }
+       .inline-2 {
+background-color: brown;
+
+       }
+       .inline-block{
+     background-color: yellow;
+     display: inline-block;
+     height: 10rem;
+     width: 20rem;
+       }
+    </style>
+</head>
+<body>
+    <div class="block">i am block level Element0</div>
+    <span class="inline-1">i am inline level Element1</span>
+    <span class="inline-2">i am inline level Element2</span>
+    <div class="block">i Am block elelment01</div>
+    <span class="inline-block">i am inline block Element</span>
+</body>
+</html>
+
+
+<!-- lec 6 positioning -->
+
+
